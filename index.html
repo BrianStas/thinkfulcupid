@@ -35,6 +35,30 @@
       <section id="join">
         <img src="images/love.png" alt="ThinkfulCupid - love" />
         <!-- Add join form here -->
+        <h2>Find your perfect match</h2>
+        <form>
+          <div>
+          <label for="email">Email</label>
+          <input id="email" type="text" name="email" placeholder="email@example.com" />
+          </div>
+          <div>
+          <label for="password">Create a password</label>
+          <input id="password" type="password" name="password" minlength="8" />
+          </div>
+          <div><label for="username">Username</label>
+          <input id="username" type="text" name="username" />
+          </div>
+          <div>
+          <label for="gender">I am a...</label>
+          <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="non-binary">Non-binary</option>
+            <option value="unspecified">Unspecified</option>
+          </select>
+          </div>
+          <button type="submit">Join</button>
+        </form>
       </section>
 
       <!-- About -->
